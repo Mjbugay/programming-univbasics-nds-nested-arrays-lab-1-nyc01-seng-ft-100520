@@ -28,7 +28,7 @@ end
 
 def matrix_lookup(matrix, row, column)
   matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
-  return matrix[matrix()][row()][column()]
+  return matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
