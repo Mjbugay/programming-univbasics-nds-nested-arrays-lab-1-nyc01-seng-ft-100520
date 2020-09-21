@@ -31,6 +31,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  new_value = matrix[row][column][new_value]
-  return new_value
+  result = matrix[row][column][new_value]
+  return result
 end
