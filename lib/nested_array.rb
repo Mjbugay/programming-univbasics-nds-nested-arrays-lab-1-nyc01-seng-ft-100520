@@ -16,12 +16,14 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-def assembled_matrix 
-  return [CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE]
+def assembled_matrix (
+  return [[CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE]]
+  )
 end
 
-def sorted_matrix
-  return [CONVENTIONAL_PRODUCE.sort()], [ORGANIC_PRODUCE.sort()]
+def sorted_matrix (
+  return [[CONVENTIONAL_PRODUCE.sort()], [ORGANIC_PRODUCE.sort()]]
+  )
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
