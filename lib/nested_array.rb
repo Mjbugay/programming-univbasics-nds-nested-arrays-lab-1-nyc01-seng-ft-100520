@@ -32,6 +32,6 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  result = matrix[row][column][new_value]
-  return result
+  new_value = matrix[row][column]
+  return matrix
 end
